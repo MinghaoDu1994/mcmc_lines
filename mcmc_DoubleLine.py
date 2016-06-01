@@ -7,6 +7,9 @@ import datetime
 from scipy import optimize
 Start = datetime.datetime.now()
 
+
+a = 5.0
+
 # Import the Spectral Data
 x, y, yerr = np.genfromtxt("J1407Flat.txt", unpack = True)
 
